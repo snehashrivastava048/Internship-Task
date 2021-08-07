@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+  }
+  
+  .split {
+    height: 100%;
+    width: 50%;
+    
+  }
+  
+  .left {
+    width: 50%;
+    background: linear-gradient(
+        252.29deg,
+        rgba(0, 0, 0, 0.2) 26.1%,
+        rgba(0, 0, 0, 0) 97.03%
+      ),
+      linear-gradient(0deg, #9c7af5, #9c7af5);
+  }
+  .text h1{
+  padding: auto;
+  margin: 70;
+width: 400px;
+height: 200px;
+left: 5px;
+top: -301px;
+  text-align: center;
+
+font-family: Gilroy;
+font-size: 55px;
+line-height: 45px;
+color: rgb(250, 246, 246);
+  }
+.text p{
+margin: 70;
+width: 317px;
+height: 131px;
+left: 5px;
+top: 50px;
+color: rgb(250, 246, 246);
+text-align: center;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+}
+.right {
+    width: 50%;
+    background: url("desktop.jpg"),
+      linear-gradient(
+        252.29deg,
+        rgba(0, 0, 0, 0.2) 26.1%,
+        rgba(0, 0, 0, 0) 97.03%
+      ),
+      linear-gradient(0deg, #9c7af5, #9c7af5);
+    background-size: 50% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .loginBox {
+    height: 75%;
+    width: 70%;
+    margin: auto;
+    margin-top: 15%;
+    background-color: white;
+    padding: 5% 10%;
+  }
+  form input {
+    margin: auto;
+  }
+  h1 {
+    font-family: Gilroy-Bold;
+    font-size: 25px;
+    line-height: 21px;
+    font-weight: bold;
+    text-align: center;
+  
+    color: #000000;
+  }
+  p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+  
+    text-align: center;
+  
+    color: #959090;
+  }
+  form label {
+    width: fit-content;
+    height: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: block;
+    text-align: center;
+  
+    color: #4b4646;
+  }
+  form input {
+    width: 100%;
+    height: 35px;
+    right: 0px;
+    border: 1px solid #b9b4c8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+  }
+  form ul{
+    list-style: none;
+    margin: 10;
+    padding: 0;
+      overflow: visible;
+  }
+  ul li{
+    color: #AAAAAA;
+    display: inline-table;
+    
+    float: left;
+    height: 100px;
+  }
+  ul li input[type=radio]{
+    /*position: absolute;
+    visibility: visible;*/
+    
+width: 40px;
+height: 10px;
+left: 100px;
+right: 0;
+top: 500px;
+margin: auto;
+background: #13C955;
+border: 10px solid #13C955;
+box-sizing: border-box;
+  }
+  ul li label{
+    
+    font-weight: 300;
+    font-size: 1.0em;
+    padding: 5px 0px 0px 0px;
+    margin:  auto;
+    height: 0px;
+    z-index: 9;
+    cursor: pointer;
+    
+  }
+  form.check {
+    
+    top: 0;
+    left: 5;
+    height: 30px;
+    width: 40px;
+    background-color: rgb(189, 183, 183);
+    border-radius: 100%;
+  }
+  form button{
+    color: rgb(250, 246, 246);
+    width: 240px;
+    height: 40px;
+    right: 200px;
+    bottom: 100;
+    margin: 22;
+    background: #9C7AF5;
+    border-radius: 0px;
+  }
+  
